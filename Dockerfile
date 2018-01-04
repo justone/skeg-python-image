@@ -1,4 +1,4 @@
-FROM skeg/python:3.5
+FROM skegio/python:3.5
 
 # install vim 8 and neovim
 RUN apt-get update && apt-get install -y  && \
